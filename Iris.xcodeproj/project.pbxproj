@@ -18,7 +18,7 @@
 
 /* Begin PBXFileReference section */
 		9C78FCA41B393B4900526BD8 /* Iris.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Iris.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		9C78FCBE1B393B4900526BD8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9C78FCBE1B393B4900526BD8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; name = Info.plist; path = SiriTests/Siri/Info.plist; sourceTree = SOURCE_ROOT; };
 		9C78FCBF1B393B4900526BD8 /* SiriTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SiriTests.swift; sourceTree = "<group>"; };
 		9CFC13441B3C2A1400C975B1 /* Assistant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Assistant.swift; path = Iris/Assistant.swift; sourceTree = "<group>"; };
 		9CFC13451B3C2A1400C975B1 /* MicMonitor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MicMonitor.swift; path = Iris/MicMonitor.swift; sourceTree = "<group>"; };
@@ -63,6 +63,7 @@
 			isa = PBXGroup;
 			children = (
 				9CFC134F1B3C2A2400C975B1 /* ViewController.swift */,
+				9C78FCBE1B393B4900526BD8 /* Info.plist */,
 				9CFC13571B3C2A4600C975B1 /* Main.storyboard */,
 				9C78FCA71B393B4900526BD8 /* Supporting Files */,
 			);
@@ -85,17 +86,8 @@
 			isa = PBXGroup;
 			children = (
 				9C78FCBF1B393B4900526BD8 /* SiriTests.swift */,
-				9C78FCBD1B393B4900526BD8 /* Supporting Files */,
 			);
 			path = SiriTests;
-			sourceTree = "<group>";
-		};
-		9C78FCBD1B393B4900526BD8 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				9C78FCBE1B393B4900526BD8 /* Info.plist */,
-			);
-			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 		9CB96B031B3C29720022890A /* Starter Classes */ = {
